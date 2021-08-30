@@ -1,0 +1,373 @@
+.form_main_cont {
+  width: 100%;
+  margin-bottom: 30px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 1px 1px 6px #00000029;
+  border-radius: 10px;
+  opacity: 1;
+}
+.title_form {
+  width: 200px;
+  height: 16px;
+  margin: 20px 1032px 17px 5px;
+  font-family: JosefinSans;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.title_form .text-style-1 {
+  font-weight: 600;
+}
+.section_title {
+  width: 100px;
+  height: 15px;
+  margin: 20px 258px 26px 18.7px;
+  font-family: JosefinSans;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.section_hide_icon {
+  width: 12px;
+  height: 6.7px;
+  margin: 18px 0.7px 24px 40.3px;
+}
+.form_image {
+  width: 146px;
+  height: 146px;
+  margin: 0px 276px 28px 0;
+  object-fit: contain;
+}
+.form_input_box {
+  width: 311px;
+  height: 36px;
+  margin: 0 0 6px;
+  /* -webkit-filter: blur(10px);
+    filter: blur(10px); */
+}
+.floating-label {
+  position: relative;
+  margin-bottom: 20px;
+}
+.floating-input,
+.floating-select {
+  font-size: 14px;
+  padding: 4px 4px;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+.floating-input:focus,
+.floating-select:focus {
+  outline: none;
+  border-bottom: 2px solid #5264ae;
+}
+
+label {
+  color: #999;
+  font-size: 14px;
+  font-weight: normal;
+  pointer-events: none;
+  left: 5px;
+  top: 5px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.pos_ab {
+  position: absolute;
+}
+.floating-input:focus ~ label,
+.floating-input:not(:placeholder-shown) ~ label {
+  top: -18px;
+  font-size: 14px;
+  color: #5264ae;
+}
+
+.floating-select:focus ~ label,
+.floating-select:not([value=""]):valid ~ label {
+  top: -18px;
+  font-size: 14px;
+  color: #5264ae;
+}
+
+/* active state */
+.floating-input:focus ~ .bar:before,
+.floating-input:focus ~ .bar:after,
+.floating-select:focus ~ .bar:before,
+.floating-select:focus ~ .bar:after {
+  width: 50%;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.floating-textarea {
+  min-height: 30px;
+  max-height: 260px;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+/* highlighter */
+.highlight {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 15%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* active state */
+.floating-input:focus ~ .highlight,
+.floating-select:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+/* animation */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+/****  floating-Lable style end ****/
+
+/***   Body style start  ***/
+
+/* html {
+    font-family: "Helvetica Neue", Helvetica, "Noto Sans", sans-serif, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #949494;
+    background-color: #ffffff;
+} */
+/***   Body style end  ***/
+
+/***   daniel - Fork me friend - style   ***/
+.floating-credit {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: #aaa;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+}
+.floating-credit a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+.floating-credit a:hover {
+  border-bottom: 1px dotted #f8f8f8;
+}
+.floating-heading {
+  position: fixed;
+  color: #aaa;
+  font-size: 20px;
+  font-family: arial, sans-serif;
+}
+/***  daniel - Fork me friend - style  ***/
+.form_radio_label {
+  width: 36px;
+  height: 12px;
+  margin: 1.5px 0 0.5px 16px;
+  font-family: JosefinSans;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.form_radio_button_padding {
+  margin: 0 0 0 15px;
+  padding: 6px;
+  background-color: #e0e0e0;
+}
+.form_radio_button_size {
+  width: 14px;
+  height: 14px;
+}
+.form_bulk_import1 {
+  width: 421px;
+  height: 15px;
+  margin: 0 61px 40px 40px;
+  font-family: JosefinSans;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #696f7b;
+  padding-top: 40px;
+}
+.form_import_file {
+  margin: 0 38px 24px 12px;
+  padding: 41px 10px 17px 30px;
+}
+
+/* form_file_select_button */
+input[type="file"]::file-selector-button {
+  width: 83px;
+  height: 20px;
+  margin: 0 21px 8px 10px;
+  padding: 4px 12px;
+  border-radius: 3px;
+  background-color: #696f7b;
+}
+.form_file-selector-text {
+  height: 12px;
+  font-family: JosefinSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.17;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+button.margin-right {
+  margin-right: 20px;
+}
+.form_button_next {
+  font-family: JosefinSans;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #696f7b;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 50px;
+}
+ul.horizontal-fix li a {
+  padding: 0.84rem 2.14rem;
+}
+
+.check_form_data_container {
+  padding: 20px;
+}
+
+.form_as_records {
+  width: 220px;
+  height: 12px;
+  margin: 18px 149px 6px 8px;
+  font-family: JosefinSans;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.form_import_status {
+  width: 79px;
+  height: 11px;
+  margin: 0 3px 11px 8px;
+  font-family: JosefinSans;
+  font-size: 10px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.form_mins {
+  width: 35px;
+  height: 11px;
+  margin: 0 20px 11px 114px;
+  font-family: JosefinSans;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: right;
+  color: #000000;
+}
+.form_table_text{
+  width: 61px;
+  height: 11px;
+  margin: 36px 46px 16.5px 3px;
+  font-family: JosefinSans;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}

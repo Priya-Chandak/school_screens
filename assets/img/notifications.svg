@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.3" height="26.8" viewBox="0 0 24.3 26.8">
+  <g id="Notifications_Icon" data-name="Notifications Icon" transform="translate(0.3)">
+    <g id="notification-2-line" transform="translate(0 5)">
+      <path id="Shape" d="M20,18H0V16H1V9.031a9,9,0,1,1,18,0V16h1ZM3,16H17V9.031a7,7,0,1,0-14,0Zm4.5,3h5a2.5,2.5,0,0,1-5,0Z" fill="#696f7b" stroke="#fff" stroke-width="0.6"/>
+    </g>
+    <g id="Group-2" transform="translate(9)">
+      <circle id="Oval" cx="7.5" cy="7.5" r="7.5" fill="#696f7b"/>
+      <text id="_2" data-name="2" transform="translate(5 10.5)" fill="#fff" font-size="10" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="0">2</tspan></text>
+    </g>
+  </g>
+</svg>

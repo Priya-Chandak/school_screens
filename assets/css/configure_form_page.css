@@ -1,0 +1,19 @@
+.cs_container {
+    top: 206px;
+    left: 113px;
+    width: 1215px;
+    height: 100%;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 1px 1px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  .cs_image {
+    border-radius: 4px;
+    top: 209px;
+    left: 143px;
+    width: 146px;
+    height: 146px;
+  }
+  

@@ -1,0 +1,24 @@
+.cs_container {
+  box-shadow: 1px 1px 6px #00000029;
+  border-radius: 10px;
+  opacity: 1;
+  width: 25%;
+  right: 0%;
+  float: right;
+  padding: 2%;
+}
+.cs_image {
+  border-radius: 4px;
+  top: 209px;
+  left: 143px;
+  width: 146px;
+  height: 146px;
+}
+.col {
+  height: 50px;
+  width: 30px;
+  background-color: darkslategrey;
+  margin: 4%;
+  border-radius: 4px;
+  text-align: center;
+}

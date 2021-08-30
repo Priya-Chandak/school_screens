@@ -1,0 +1,33 @@
+.cs_container {
+  width: 331px;
+  height: 767px;
+  margin: 0 0 0 0.5px;
+  box-shadow: -4px 0 10px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+}
+.My-profile {
+  font-size: 16px;
+  font-weight: 600;
+}
+.cs_profile {
+  width: 96px;
+  height: 96px;
+}
+.cs_settings {
+  width: 20px;
+  height: 20px;
+  margin: 0px 15px 92px 0px;
+  object-fit: contain;
+}
+.as_close {
+  width: 20px;
+  height: 20px;
+  margin: 0 15px 25px 20px;
+  object-fit: contain;
+  float: right;
+}
+#d1,
+#d2 {
+  display: inline;
+  padding: 1px;
+}

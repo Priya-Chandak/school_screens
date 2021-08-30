@@ -1,0 +1,46 @@
+.cs_container {
+  top: 20%;
+  left: 339px;
+  width: 50%;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 1px 1px 6px #00000029;
+  border-radius: 10px;
+  opacity: 1;
+}
+.cs_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.import-s-text {
+  width: 150px;
+  height: 17px;
+  font-family: JosefinSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2e3a59;
+}
+.import-s-text-count {
+  width: 152px;
+  height: 16px;
+  font-family: JosefinSans;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  color: #2e3a59;
+}

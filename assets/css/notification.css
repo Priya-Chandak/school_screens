@@ -1,0 +1,121 @@
+.as_container {
+  width: 331px;
+  height: 983px;
+  padding: 29px 0 0;
+  box-shadow: -4px 0 10px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+}
+.as_notification_header {
+  width: 87px;
+  height: 16px;
+  font-family: JosefinSans;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.as_notification_img {
+  width: 34px;
+  height: 34px;
+  margin: 0 12px 0 0;
+  object-fit: contain;
+}
+
+.message {
+  font-size: small;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #696f7b;
+}
+.as_time {
+  font-size: 10px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #696f7b;
+  margin-left: 18%;
+  margin-top: 2%;
+}
+.as_close {
+  float: right;
+}
+.as_notification_div {
+  margin: 25px 0 0;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: #f2f5fa;
+}
+
+.logout_button{
+  width: 51px;
+  height: 16px;
+  margin: 20px 0px 40px 0px;
+  font-family: JosefinSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e3a59;
+}
+.pow_by_text{
+  width: 68px;
+  height: 12px;
+  margin: 10.2px 96px 12.8px 106px;
+  font-family: JosefinSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e3a59;
+}
+.logo_prof_pow{
+  width: 220.8px;
+  height: 99.3px;
+  margin: 25px 20px 50.9px 40.3px;
+  object-fit: contain;
+}
+.support_mail{
+  width: 127px;
+  height: 12px;
+  margin: 36.9px 146.5px 12.3px 22.5px;
+  font-family: JosefinSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e3a59;
+}
+.support_num{
+  width: 84px;
+  height: 12px;
+  margin: 12.3px 6.5px 0 22.5px;
+  font-family: JosefinSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e3a59;
+}

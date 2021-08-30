@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ImportPages.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/main-cont.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/sidebar_adi.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/navbar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/form.css'>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script>
+        $(document).ready(function () {
+            $("#navbarfile").load("navbar.html");
+            $("#sidebarfile").load("sidebar.html");
+            $(".dropdown").hover(function () {
+                var dropdownMenu = $(this).children(".dropdown-menu");
+                if (dropdownMenu.is(":visible")) {
+                    dropdownMenu.parent().toggleClass("open");
+                }
+            });
+        });
+    </script>
+
+</head>
+
+<header>
+    <div id="navbarfile">
+
+    </div>
+
+</header>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="sidebarfile">
+
+            </div>
+            <div class="containers">
+                <div class="title_form ">Module > Page ><span class="text-style-1"> Import</span></div>
+
+                <div class="progress-bars">
+                    <div class="step">
+                        <p>
+                            Add File
+                        </p>
+                        <div class="bullet">
+                            <span>1</span>
+                        </div>
+                        <div class="check fas fa-check"></div>
+
+                    </div>
+                    <div class="step">
+                        <p>
+                            Map Records
+                        </p>
+                        <div class="bullet">
+                            <span>2</span>
+                        </div>
+                        <div class="check fas fa-check"></div>
+
+                    </div>
+                    <div class="step">
+
+
+                        <p>
+                            Check Records
+                        </p>
+                        <div class="bullet">
+                            <span>3</span>
+                        </div>
+                        <div class="check fas fa-check"></div>
+
+                    </div>
+                    <div class="step">
+
+                        <p>
+                            Errors
+                        </p>
+                        <div class="bullet">
+                            <span>4</span>
+                        </div>
+
+                        <div class="check fas fa-check"></div>
+                    </div>
+                </div>
+                <div class="form-outer">
+                    <form action="#">
+                        <div class="page slide-page" style="background-color: #e0e0e0;height: 500px; ">
+                            <div style="height: 100vh;overflow: scroll;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="cs-main">
+                                            <!-- <div class="row padding-top-30px"> -->
+                                            <!-- </div> -->
+                                            <div class="main-container">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="form_bulk_import1">To Bulk Import this Data submit a
+                                                            excel
+                                                            file
+                                                            or Template
+                                                            CSV File
+                                                        </div>
+
+                                                        <div
+                                                            class="floating-label form_import_file form_file-selector-text">
+                                                            <input
+                                                                class="floating-input form_upload_logo form_file_select_button"
+                                                                type="file" placeholder=" ">
+                                                        </div>
+                                                        <div class="form_import_file">
+                                                            <button class="btn btn-outline-dark"> DOWNLOAD CSV</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="flex-parent jc-center form_button_next sticky">
+                                                    <button class="btn btn-outline-dark margin-right ">CANCEL</button>
+                                                    <button type="button"
+                                                        class="btn btn-secondary firstNext next">NEXT</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page">
+                            <div style="height: 100vh;overflow: scroll;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="cs-main">
+                                            <!-- <div class="row padding-top-30px"> -->
+                                            <!-- </div> -->
+                                            <div class="main-container">
+                                                <div class="check_form_data_container">
+                                                    <div style="display: flex;justify-content: space-between;">
+                                                        <div class="form_import_status">Import Status </div>
+                                                        <div class="form_mins">12 mins</div>
+                                                    </div>
+                                                    <div class="progress" style="height: 5px;">
+                                                        <div class="progress-bar w-25" role="progressbar bg-secondary"
+                                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                                            style="background-color: rgb(94, 91, 91);">
+                                                        </div>
+                                                    </div>
+
+                                                    <table class="table form_table_text"
+                                                        style="margin-top: 40px; border-collapse: collapse;border-spacing: 5px 0;">
+                                                        <thead>
+                                                            <tr>
+                                                                <th scope="col" style="width: 45%;border-top: none;">
+                                                                    Vidyarthi
+                                                                    FIELDS</th>
+                                                                <th scope="col" style="width: 45%;border-top: none;">
+                                                                    YOUR FIELDS
+                                                                </th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Student Name</td>
+                                                                <td><select class="form-select form-control"
+                                                                        aria-label="Default select example">
+                                                                        <option selected>Student Name</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select>
+                                                                </td>
+                                                                <td><i class="fa fa-check" style="color: green;"
+                                                                        aria-hidden="true"></i>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Parent Name</td>
+                                                                <td><select class="form-select form-control"
+                                                                        aria-label="Default select example">
+                                                                        <option selected>Father's Name</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select></td>
+                                                                <td><i class="fa fa-check" style="color: green;"
+                                                                        aria-hidden="true"></i>
+                                                                </td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Email Address</td>
+                                                                <td><select class="form-select form-control"
+                                                                        aria-label="Default select example">
+                                                                        <option selected>Email</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select></td>
+                                                                <td><i class="fa fa-check" style="color: green;"
+                                                                        aria-hidden="true"></i>
+                                                                </td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Mobile Number</td>
+                                                                <td><select class="form-select form-control"
+                                                                        aria-label="Default select example">
+                                                                        <option selected>Primary Number</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select></td>
+                                                                <td><i class="fa fa-check" style="color: green;"
+                                                                        aria-hidden="true"></i>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Parent Number</td>
+                                                                <td><select class="form-select form-control"
+                                                                        aria-label="Default select example">
+                                                                        <option selected>Father's Number</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select>
+                                                                <td><i class="fa fa-check" style="color: green;"
+                                                                        aria-hidden="true"></i>
+                                                                </td>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Address</td>
+                                                                <td><select class="form-select form-control"
+                                                                        aria-label="Default select example">
+                                                                        <option selected>Permanent Number</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select></td>
+
+                                                                <td><i class="fa fa-check" style="color: green;"
+                                                                        aria-hidden="true"></i>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Demo 1</td>
+                                                                <td><select class="form-select form-control"
+                                                                        aria-label="Default select example">
+                                                                        <option selected>LABEL</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select></td>
+                                                                <td><i class="fa fa-check" style="color: green;"
+                                                                        aria-hidden="true"></i>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Demo 1</td>
+                                                                <td><select class="form-select form-control"
+                                                                        aria-label="Default select example">
+                                                                        <option selected>LABEL</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select></td>
+                                                                <td><i class="fa fa-check" style="color: green;"
+                                                                        aria-hidden="true"></i>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Demo 1</td>
+                                                                <td><select class="form-select form-control"
+                                                                        aria-label="Default select example">
+                                                                        <option selected>LABEL</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select></td>
+                                                                <td><i class="fa fa-check" style="color: green;"
+                                                                        aria-hidden="true"></i>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Demo 1</td>
+                                                                <td><select class="form-select form-control"
+                                                                        aria-label="Default select example">
+                                                                        <option selected>LABEL</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select></td>
+                                                                <td><i class="fa fa-check" style="color: green;"
+                                                                        aria-hidden="true"></i>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Demo 1</td>
+                                                                <td><select class="form-select form-control"
+                                                                        aria-label="Default select example">
+                                                                        <option selected>LABEL</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select></td>
+                                                                <td><i class="fa fa-check" style="color: green;"
+                                                                        aria-hidden="true"></i>
+                                                                </td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Demo 1</td>
+                                                                <td><select class="form-select form-control"
+                                                                        aria-label="Default select example">
+                                                                        <option selected>LABEL</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select></td>
+                                                                <td><i class="fa fa-check" style="color: green;"
+                                                                        aria-hidden="true"></i>
+                                                                </td>
+
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                    <div class="flex-parent jc-center form_button_next sticky">
+                                                        <!-- <button type="submit" class="green margin-right">Confirm</button>
+                                            <button type="submit" class="magenta">Cancel</button> -->
+                                                        <button
+                                                            class="btn btn-outline-dark margin-right prev-1 prev">PREVIOUS</button>
+                                                        <button type="button"
+                                                            class="btn btn-secondary next-1 next">NEXT</button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page">
+                            <div style="height: 100vh;overflow: scroll;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="cs-main">
+                                            <!-- <div class="row padding-top-30px"> -->
+                                            <!-- </div> -->
+                                            <div class="main-container">
+                                                <div class="check_form_data_container">
+                                                    <div style="display: flex;justify-content: space-between;">
+                                                        <div class="form_import_status">Import Status </div>
+                                                        <div class="form_mins">8 mins</div>
+                                                    </div>
+                                                    <div class="progress" style="height: 5px;">
+                                                        <div class="progress-bar w-50" role="progressbar bg-secondary"
+                                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
+                                                            style="background-color: rgb(94, 91, 91);">
+                                                        </div>
+                                                    </div>
+
+                                                    <table class="table form_table_text"
+                                                        style="margin-top: 40px; border-collapse: collapse;border-spacing: 5px 0;">
+                                                        <thead>
+                                                            <tr>
+                                                                <th><input type="checkbox" id="all"></th>
+                                                                <th scope="col">STUDENT ID</th>
+                                                                <th scope="col">STUDENT NAME</th>
+                                                                <th scope="col">CLASS & SECTION</th>
+                                                                <th scope="col">GENDER</th>
+                                                                <th scope="col">BLOOD GROUP</th>
+                                                                <th scope="col">ADDRESS</th>
+                                                                <th scope="col">BIRTH DATE</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><input type="checkbox" id="cb1"></td>
+                                                                <td scope="col">P-01</td>
+                                                                <td scope="col">Avi Gupta</td>
+                                                                <td scope="col">1-A</td>
+                                                                <td scope="col">BOY</td>
+                                                                <td scope="col">O+</td>
+                                                                <td scope="col">Goregaon</td>
+                                                                <td scope="col">03 Mar 14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input type="checkbox" id="cb2"></td>
+                                                                <td scope="col">P-01</td>
+                                                                <td scope="col">Avi Gupta</td>
+                                                                <td scope="col">1-A</td>
+                                                                <td scope="col">BOY</td>
+                                                                <td scope="col">O+</td>
+                                                                <td scope="col">Goregaon</td>
+                                                                <td scope="col">03 Mar 14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input type="checkbox" id="cb3"></td>
+                                                                <td scope="col">P-01</td>
+                                                                <td scope="col">Avi Gupta</td>
+                                                                <td scope="col">1-A</td>
+                                                                <td scope="col">BOY</td>
+                                                                <td scope="col">O+</td>
+                                                                <td scope="col">Goregaon</td>
+                                                                <td scope="col">03 Mar 14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input type="checkbox" id="cb4"></td>
+                                                                <td scope="col">P-01</td>
+                                                                <td scope="col">Avi Gupta</td>
+                                                                <td scope="col">1-A</td>
+                                                                <td scope="col">BOY</td>
+                                                                <td scope="col">O+</td>
+                                                                <td scope="col">Goregaon</td>
+                                                                <td scope="col">03 Mar 14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input type="checkbox" id="cb4"></td>
+                                                                <td scope="col">P-01</td>
+                                                                <td scope="col">Avi Gupta</td>
+                                                                <td scope="col">1-A</td>
+                                                                <td scope="col">BOY</td>
+                                                                <td scope="col">O+</td>
+                                                                <td scope="col">Goregaon</td>
+                                                                <td scope="col">03 Mar 14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input type="checkbox" id="cb4"></td>
+                                                                <td scope="col">P-01</td>
+                                                                <td scope="col">Avi Gupta</td>
+                                                                <td scope="col">1-A</td>
+                                                                <td scope="col">BOY</td>
+                                                                <td scope="col">O+</td>
+                                                                <td scope="col">Goregaon</td>
+                                                                <td scope="col">03 Mar 14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input type="checkbox" id="cb4"></td>
+                                                                <td scope="col">P-01</td>
+                                                                <td scope="col">Avi Gupta</td>
+                                                                <td scope="col">1-A</td>
+                                                                <td scope="col">BOY</td>
+                                                                <td scope="col">O+</td>
+                                                                <td scope="col">Goregaon</td>
+                                                                <td scope="col">03 Mar 14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input type="checkbox" id="cb4"></td>
+                                                                <td scope="col">P-01</td>
+                                                                <td scope="col">Avi Gupta</td>
+                                                                <td scope="col">1-A</td>
+                                                                <td scope="col">BOY</td>
+                                                                <td scope="col">O+</td>
+                                                                <td scope="col">Goregaon</td>
+                                                                <td scope="col">03 Mar 14</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <div class="flex-parent jc-center form_button_next sticky">
+                                                        <!-- <button type="submit" class="green margin-right">Confirm</button>
+                                            <button type="submit" class="magenta">Cancel</button> -->
+                                                        <button
+                                                            class="btn btn-outline-dark margin-right prev-2 prev">CANCEL</button>
+                                                        <button type="button"
+                                                            class="btn btn-secondary next-2 next">START
+                                                            IMPORTING</button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page">
+                            <div style="height: 100vh;overflow: scroll;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="cs-main">
+                                            <!-- <div class="row padding-top-30px"> -->
+                                            <!-- </div> -->
+                                            <div class="main-container">
+                                                <div class="check_form_data_container">
+                                                    <div style="display: flex;justify-content: space-between;">
+                                                        <div class="form_import_status">Import Status </div>
+                                                        <div class="form_mins">2 mins</div>
+                                                    </div>
+                                                    <div class="progress" style="height: 5px;">
+                                                        <div class="progress-bar w-50" role="progressbar bg-secondary"
+                                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
+                                                            style="background-color: rgb(94, 91, 91);">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form_as_records">
+                                                        <div> 286/290 records successfully imported.</div>
+                                                        <small>4 records have error ﬁelds, do you still wish to
+                                                            import?</small>
+                                                    </div>
+                                                    <table class="table form_table_text"
+                                                        style="margin-top: 40px; border-collapse: collapse;border-spacing: 5px 0;">
+                                                        <thead>
+                                                            <tr>
+                                                                <th><input type="checkbox" id="all"></th>
+                                                                <th scope="col">STUDENT ID</th>
+                                                                <th scope="col">STUDENT NAME</th>
+                                                                <th scope="col">CLASS & SECTION</th>
+                                                                <th scope="col">GENDER</th>
+                                                                <th scope="col">BLOOD GROUP</th>
+                                                                <th scope="col">ADDRESS</th>
+                                                                <th scope="col">BIRTH DATE</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><input type="checkbox"></td>
+
+                                                                <td scope="col">P-01</td>
+                                                                <td scope="col">Avi Gupta</td>
+                                                                <td scope="col">1-A</td>
+                                                                <td scope="col">BOY</td>
+                                                                <td scope="col">O+</td>
+                                                                <td scope="col">Goregaon</td>
+                                                                <td scope="col">03 Mar 14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input type="checkbox"></td>
+
+                                                                <td scope="col">P-01</td>
+                                                                <td scope="col">Avi Gupta</td>
+                                                                <td scope="col">1-A</td>
+                                                                <td scope="col">BOY</td>
+                                                                <td scope="col">O+</td>
+                                                                <td scope="col">Goregaon</td>
+                                                                <td scope="col">03 Mar 14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input type="checkbox"></td>
+
+                                                                <td scope="col">P-01</td>
+                                                                <td scope="col">Avi Gupta</td>
+                                                                <td scope="col">1-A</td>
+                                                                <td scope="col">BOY</td>
+                                                                <td scope="col">O+</td>
+                                                                <td scope="col">Goregaon</td>
+                                                                <td scope="col">03 Mar 14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input type="checkbox"></td>
+
+                                                                <td scope="col">P-01</td>
+                                                                <td scope="col">Avi Gupta</td>
+                                                                <td scope="col">1-A</td>
+                                                                <td scope="col">BOY</td>
+                                                                <td scope="col">O+</td>
+                                                                <td scope="col">Goregaon</td>
+                                                                <td scope="col">03 Mar 14</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <div class="flex-parent jc-center form_button_next sticky">
+                                                        <!-- <button type="submit" class="green margin-right">Confirm</button>
+                                            <button type="submit" class="magenta">Cancel</button> -->
+                                                        <button
+                                                            class="btn btn-outline-dark margin-right prev-3 prev">CANCEL</button>
+                                                        <button type="button" class="btn btn-secondary submit">FINISH
+                                                            IMPORTING</button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="ImportPages.js"></script>
+
+</html>
